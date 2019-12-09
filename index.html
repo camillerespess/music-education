@@ -10,24 +10,15 @@
 </head>
 
 <body>
-    <img id="title" class="image1" src="images/title.gif"/>
-    <img id="mobiletitle" class="image2" src="images/mobiletitle.gif"/>
-  <p> Music plays an important role in every aspect of life. From development, to relationships, to imagination, the value of music can be seen everywhere. </p>
-
-<!-- buttons -->
-<div class="text-center" id="btngroup1">
-  <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-outline-dark"> <a href="#section1">Values of a music education</a></button>
-      <button type="button" class="btn btn-outline-dark"> <a href="#section2">Connect with music</a></button>
-    </div>
-  </div>
-</div>
+    <img id="title" class="image1" src="images/title.gif" alt="Music education for children">
+    <img id="mobiletitle" class="image2" src="images/mobiletitle.gif" alt="Music education for children">
+  <p> Music plays an important role in every aspect of life. <br>From development, to relationships, to imagination, the value of music can be seen everywhere. </p>
 <p> Interact with the keyboard to learn about different values of childhood music immersion. <br> Each key contains a benefit of childhood music education and music immersion. </p>
 
 
 <!-- keyboard -->
 <div id="section1" class="keyboard">
-<ul class="piano">
+<ul class="white">
     <li class="white b" id="first"></li>
     <li class="black as"></li>
     <li class="white a" id="second"></li>
@@ -47,31 +38,66 @@
 
 <div id="mobilesection1" class="mobilekeyboard">
 <ul class="mobilepiano">
-    <li class="white b" id="first"></li>
+    <li class="white b" id="mobilefirst"></li>
     <li class="black as"></li>
-    <li class="white a" id="second"></li>
+    <li class="white a" id="mobilesecond"></li>
     <li class="black gs"></li>
-    <li class="white g" id="third"></li>
+    <li class="white g" id="mobilethird"></li>
     <li class="black fs"></li>
-    <li class="white f" id="fourth"></li>
-    <li class="white e" id="fifth"></li>
+    <li class="white f" id="mobilefourth"></li>
+    <li class="white e" id="mobilefifth"></li>
     <li class="black ds"></li>
-  	<li class="white d" id="sixth"></li>
+  	<li class="white d" id="mobilesixth"></li>
   	<li class="black cs"></li>
-  	<li class="white c" id="seventh"></li>
+  	<li class="white c" id="mobileseventh"></li>
   </ul>
 </div>
 
 <!-- apps -->
 <div id="section2">
-<!--motal divs start here-->
-<!--motor control motal-->
+  <p> Children’s interaction with music spans beyond instruments.<br> With these apps, kids can learn, listen, and create their own music.<p>
+
+<!-- sesame -->
+  <article id="sesame">
+    <section class="photo">
+      <h1> 1.Sesame Street Rhyme Time </h1>
+    <img id="sesamestreet" src="images/sesame.png" class="animated swing" alt="Sesame Street logo">
+    <p><small class="text-muted"> Source: <a href="https://commons.wikimedia.org/wiki/File:Sesame_Street_logo.jpg"> Sesameworkshop.org</a></small></p>
+  </section>
+  <section class="text">
+    <p>This game, by longtime children’s program Sesame Street, pairs rhyming practice with basic music functions.<br> Cost: Free <br> Ages: 2-5 <br> Source: <a href="https://www.sesamestreet.org/games?id=302">Sesame Street </a></p>
+  </section>
+  </article>
+
+<!-- easy music -->
+  <div id="easy">
+    <h1> 2. Easy Music </h1>
+    <p>This foundational app teaches the basics of music literacy. <br> Cost: $3.99 <br> Ages: 2-8 <br> Source: <a href="https://www.commonsense.org/education/app/easy-music-give-kids-an-ear-for-music"> commonsense.org</a></p>
+  </div>
+<!-- musical me -->
+  <div id="musicalme">
+    <h1> 3. Musical Me! </h1>
+    <p> An award-winning app, Musical Me! teaches rhythm, notes and pitch.<br> Cost: Free <br> Ages: 2-6 <br> Source: <a href="https://apps.apple.com/us/app/musical-me-kids-songs-music/id441152315"> Apple App Store</a></p>
+</div>
+<!-- simply piano -->
+<div id="simplypiano">
+  <h1> 4. Simply Piano </h1>
+  <p> This app functions as a digital keyboard. Students are able to practice their piano skills, including technique, sight reading and rhythm, from their mobile device. <br> Cost: Free <br> Ages: All <br> Source: <a href="https://www.joytunes.com/apps#pm"> Joy Tunes</a></p>
+</div>
+<!-- loopimal -->
+<div id="loopimal">
+  <h1> 5. Loopimal </h1>
+  <p> Using animations and sounds, Loopimal allows users to create their own music. <br> Cost: $3.99 <br> Ages: 6-8 <br> Source: <a href="https://apps.apple.com/us/app/loopimal-by-yatatoy/id964743113"> Apple App Store </a></p>
+</div>
+</div>
+<!--modal divs start here-->
+<!--motor control modal-->
 <div id="motorControl" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Music Increases Motor Control</h1>
-  <div id="text">
-    <p1> Interacting with music, whether making it or listening, has positive effects on motor control. Hearing music and dancing to it is not only enjoyable for toddlers and adults alike, it’s also a way to sharpen motor function. What’s more, playing and studying instruments only increases motor function skills.</p1>
+  <div id="motortext">
+    <p> Interacting with music, whether making it or listening, has positive effects on motor control. Hearing music and dancing to it is not only enjoyable for toddlers and adults alike, it’s also a way to sharpen motor function. What’s more, playing and studying instruments only increases motor function skills.</p>
     <div id="rowBoat" class="soundtrack">
 <p> Row Row Row Your Boat, a classic children’s song, engages listeners to “row” the boat along to the music. In doing so, listeners utilize their motor skills.  </p>
         <audio controls preload="auto">
@@ -85,12 +111,13 @@
     <img id="boat" class="music-icon" src="images/boat.jpg" alt="Row Row Row Your Boat">
   </div>
   </div>
-<!--relationships motal-->
+  </div>
+<!--relationships modal-->
 <div id="buildBonds" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Music Creates Bonds</h1>
-  <div id="text">
+  <div id="bondstext">
     <p>Music creates community and a sense of belonging, so relationships can certainly be built or strengthened with it. Bedtime songs, as detailed in <a href="https://www.carnegiehall.org/Blog/2016/01/Why-Making-Music-Matters-Music-and-Early-Childhood-Development"> a 2016 Carnegie Hall report</a>, are an example of this. “When caregivers sing lullabies, they use pitch, rhythm, and lyrics to soothe, teach language, communicate hope and affection, and provide security as a child goes from wakefulness to sleep, or light to dark.”</p>
     <div id="sunshine" class="soundtrack">
 <p> With soothing, loving, and uplifting lyrics, You Are My Sunshine is a lullaby that supports intimacy.</p>
@@ -102,15 +129,16 @@
         </div>
   </div>
   <div id="thesun">
-    <img id="sunshine" class="music-icon" src="images/sun.jpg" alt="You Are My Sunshine">
+    <img id="sunphoto" class="music-icon" src="images/sun.jpg" alt="You Are My Sunshine">
   </div>
   </div>
-<!--communications motal-->
+  </div>
+<!--communications modal-->
 <div id="communications" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Music Strengthens Communication Skills</h1>
-  <div id="text">
+  <div id="communicationstext">
     <p>As a form of communication itself, music <a href="https://www.carnegiehall.org/Blog/2016/01/Why-Making-Music-Matters-Music-and-Early-Childhood-Development"> serves as a way </a> for children to process routines, understand structure, and cooperate. Music also <a href="https://www.pbs.org/parents/thrive/the-benefits-of-music-education"> strengthens verbal skills </a> and can serve as a way to provide structure to social interactions. Listening to music in a foreign language is a method to strengthen a child’s communication and language skills, while also creating inclusive environments for students of varying backgrounds.</p>
     <div id="lune" class="soundtrack">
 <p> Au Clair de la Lune is a famous French children’s song.</p>
@@ -125,12 +153,13 @@
     <img id="moon" class="music-icon" src="images/moon.jpg" alt="Au Clair de la Lune">
   </div>
   </div>
-<!--iqs motal-->
+  </div>
+<!--iqs modal-->
 <div id="higherIq" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Studying Music can Increase IQs</h1>
-  <div id="text">
+  <div id="iqtext">
     <p>A <a href="https://www.utm.utoronto.ca/~w3psygs/MusicLessons.pdf"> 2004 study</a> from the University of Toronto found that six-year-old’s IQs had small increases when exposed to once-a-week piano and voice lessons. The children who participated in weekly music education had average IQs three points higher than the other student groups.</p>
     <div id="heart" class="soundtrack">
       <p> Heart and Soul is a common beginner’s piano song and would likely be found in many children’s lesson books.</p>
@@ -144,14 +173,15 @@
     <img id="brain" class="music-icon" src="images/brain.jpg" alt="Heart and Soul">
   </div>
   </div>
-<!--language development motal-->
+  </div>
+<!--language development modal-->
 <div id="languageDevelopment" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Music Promotes Language Development</h1>
-  <div id="text">
+  <div id="languagetext">
     <p>Children who <a href="https://www.nammfoundation.org/articles/2014-06-09/How-Children-Benefit-Music-Education-Schools">study music</a> routinely have increased vocabulary and reading skills. This is because music enhances language development,  an idea supported by the Children’s Music Workshop. The group has found that music education develops the left side of the brain, where language processing occurs.</p>
-    <div id="heart" class="soundtrack">
+    <div id="abcs" class="soundtrack">
       <p> Set to a tune, the ABCs function as both a way to learn the alphabet and engage with music.</p>
         <audio controls preload="auto">
         	<source src="audio/abc.mp3" type="audio/mp3">
@@ -163,12 +193,13 @@
     <img id="letter" class="music-icon" src="images/letter.jpg" alt="ABCs">
   </div>
   </div>
-<!--imagination motal-->
+  </div>
+<!--imagination modal-->
 <div id="imagination" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1>Music Inspires Imagination</h1>
-  <div id="text">
+  <div id="imaginationtext">
     <p>Music immersion gives children the opportunity to develop creativity, invent, and express themselves. As an art form, music is imaginative and creative. If exposed to it, children could emulate the music they hear and are taught and utilize their imagination to create a novel experience.</p>
     <div id="train" class="soundtrack">
       <p> Riding on a Train is a song that provides listeners with a base storyline that could use their imagination to expand upon.</p>
@@ -182,12 +213,13 @@
     <img id="trainimg" class="music-icon" src="images/train.jpg" alt="Riding on the Train">
   </div>
   </div>
-<!--learning motal-->
+  </div>
+<!--learning modal-->
 <div id="formalLearning" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
 <h1> Music Education Supports All Learning</h1>
-  <div id="text">
+  <div id="learningtext">
     <p> According to <a href="https://www.pbs.org/parents/thrive/the-benefits-of-music-education"> PBS Kids </a>, an education in music helps children in other areas as well. Practicing music requires engagement with the brain, ears, eyes, and muscles. The skills developed in those areas of the body can be used in and out of music. In educational settings, music can be used to set a tune to information, like the alphabet.</p>
     <div id="seasons" class="soundtrack">
       <p> This seasons song uses music to teach listeners about different seasons of the year and the characteristics associated with them.</p>
@@ -201,9 +233,8 @@
     <img id="tree" class="music-icon" src="images/seasons.jpg" alt="Seasons Song">
   </div>
   </div>
-<!--motals end here-->
   </div>
-<!--motals end here-->
+<!--modals end here-->
 <script src="js/main.js"></script>
 
 </body>

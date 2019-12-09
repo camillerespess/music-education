@@ -1,7 +1,21 @@
+let sesame = document.querySelector("#sesamestreet");
+sesame.onmouseenter = (e) => {
+  e.target.classList.add("animated");
+  e.target.classList.add("swing");
+}
+
+sesame.onmouseleave = (e) => {
+  e.target.classList.remove("animated");
+  e.target.classList.remove("swing");
+  }
+
+
+
 
 let modal = document.querySelectorAll(".modal");
 let piano = document.querySelectorAll(".piano");
 let span = document.getElementsByClassName("close")[0];
+let white = document.querySelectorAll(".white");
 
 function hideAll() {
   modal.forEach(function(el) {
@@ -11,7 +25,7 @@ function hideAll() {
 
 hideAll();
 
-piano.forEach(function(el) {
+white.forEach(function(el) {
   el.onclick = (e) => {
         hideAll();
 

@@ -9,9 +9,9 @@ body {
 }
 
 h1 {
-    font-family: font-family: 'Pacifico', cursive;
-    color: #F6E5D6;
-    font-size: 3rem;
+    font-family: Raleway, Calibri, Arial, sans-serif;
+    color: #3080a0;
+    font-size: 2rem;
 }
 
 p {
@@ -27,14 +27,15 @@ p {
     margin-right: auto;
 }
 
-#btngroup1 {
+#section1 {
   display: flex;
   justify-content: center;
 }
 
-#section1 {
-  display: flex;
-  justify-content: center;
+#section2 {
+background: #F6E5D6;
+padding: 2rem;
+margin: 2rem;
 }
 
   ul {
@@ -90,7 +91,7 @@ p {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 3; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -125,16 +126,16 @@ p {
   }
   a {
       font-size: 1.7rem;
-      color: #DFAA2C;
+      color: #000;
   }
 
   a:hover {
-      color: #F6E5D6;
+      color: #3080a0;
 
   }
 
 a:visited {
-  color: #DFAA2C;
+  color: #3080a0;
   }
 
   .image2{
