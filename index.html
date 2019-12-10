@@ -10,13 +10,18 @@
 </head>
 
 <body>
-    <img id="title" class="image1" src="images/title.gif" alt="Music education for children">
-    <img id="mobiletitle" class="image2" src="images/mobiletitle.gif" alt="Music education for children">
-  <p> Music plays an important role in every aspect of life. <br>From development, to relationships, to imagination, the value of music can be seen everywhere. </p>
-<p> Interact with the keyboard to learn about different values of childhood music immersion. <br> Each key contains a benefit of childhood music education and music immersion. </p>
+  <header>
+    <img id="title" class="animated fadeIn" src="images/title.png" alt="Music education for children">
+    <img id="mobiletitle" class="animated fadeIn" src="images/mobiletitle.png" alt="Music education for children">
+  </header>
 
+<div id="intro" class ="introtext">
+  <p> Music plays an important role in every aspect of life. From development, to relationships, to imagination, the value of music can be seen everywhere. </p>
+</div>
 
 <!-- keyboard -->
+<h1> explore the value of music in childhood </h1>
+<p> Interact with the keyboard to learn about different values of childhood music immersion. Each key contains a benefit of childhood music education and music immersion. </p>
 <div id="section1" class="keyboard">
 <ul class="white">
     <li class="white b" id="first"></li>
@@ -37,7 +42,7 @@
 <!-- mobile keyboard -->
 
 <div id="mobilesection1" class="mobilekeyboard">
-<ul class="mobilepiano">
+<ul class="mobilewhite">
     <li class="white b" id="mobilefirst"></li>
     <li class="black as"></li>
     <li class="white a" id="mobilesecond"></li>
@@ -55,12 +60,13 @@
 
 <!-- apps -->
 <div id="section2">
-  <p> Children’s interaction with music spans beyond instruments.<br> With these apps, kids can learn, listen, and create their own music.<p>
+  <h1> engage in music education </h1>
+  <p> Children’s interaction with music spans beyond instruments. With these apps, kids can learn, listen, and create their own music.<p>
 
 <!-- sesame -->
   <article id="sesame">
     <section class="photo">
-      <h1> 1.Sesame Street Rhyme Time </h1>
+      <h2> 1.Sesame Street Rhyme Time </h2>
     <img id="sesamestreet" src="images/sesame.png" class="animated swing" alt="Sesame Street logo">
     <p><small class="text-muted"> Source: <a href="https://commons.wikimedia.org/wiki/File:Sesame_Street_logo.jpg"> Sesameworkshop.org</a></small></p>
   </section>
@@ -71,31 +77,31 @@
 
 <!-- easy music -->
   <div id="easy">
-    <h1> 2. Easy Music </h1>
-    <p>This foundational app teaches the basics of music literacy. <br> Cost: $3.99 <br> Ages: 2-8 <br> Source: <a href="https://www.commonsense.org/education/app/easy-music-give-kids-an-ear-for-music"> commonsense.org</a></p>
+    <h2> 2. Easy Music </h2>
+    <p>This foundational app teaches the basics of music literacy. <br> Cost: $3.99 <br> Ages: 2-8 <br> <p>Source: <a href="https://www.commonsense.org/education/app/easy-music-give-kids-an-ear-for-music"> commonsense.org</a></p>
   </div>
 <!-- musical me -->
   <div id="musicalme">
-    <h1> 3. Musical Me! </h1>
+    <h2> 3. Musical Me! </h2>
     <p> An award-winning app, Musical Me! teaches rhythm, notes and pitch.<br> Cost: Free <br> Ages: 2-6 <br> Source: <a href="https://apps.apple.com/us/app/musical-me-kids-songs-music/id441152315"> Apple App Store</a></p>
 </div>
 <!-- simply piano -->
 <div id="simplypiano">
-  <h1> 4. Simply Piano </h1>
+  <h2> 4. Simply Piano </h2>
   <p> This app functions as a digital keyboard. Students are able to practice their piano skills, including technique, sight reading and rhythm, from their mobile device. <br> Cost: Free <br> Ages: All <br> Source: <a href="https://www.joytunes.com/apps#pm"> Joy Tunes</a></p>
 </div>
 <!-- loopimal -->
 <div id="loopimal">
-  <h1> 5. Loopimal </h1>
+  <h2> 5. Loopimal </h2>
   <p> Using animations and sounds, Loopimal allows users to create their own music. <br> Cost: $3.99 <br> Ages: 6-8 <br> Source: <a href="https://apps.apple.com/us/app/loopimal-by-yatatoy/id964743113"> Apple App Store </a></p>
 </div>
 </div>
-<!--modal divs start here-->
+<!--modal divs start here. From https://www.w3schools.com/howto/howto_css_modals.asp-->
 <!--motor control modal-->
 <div id="motorControl" class="modal">
 <div class="modal-content">
   <span class="close">&times;</span>
-<h1>Music Increases Motor Control</h1>
+<h2>Music Increases Motor Control</h2>
   <div id="motortext">
     <p> Interacting with music, whether making it or listening, has positive effects on motor control. Hearing music and dancing to it is not only enjoyable for toddlers and adults alike, it’s also a way to sharpen motor function. What’s more, playing and studying instruments only increases motor function skills.</p>
     <div id="rowBoat" class="soundtrack">
@@ -108,7 +114,7 @@
         </div>
   </div>
   <div id="theboat">
-    <img id="boat" class="music-icon" src="images/boat.jpg" alt="Row Row Row Your Boat">
+    <img id="boat" class="animated bounce" src="images/boat.jpg" alt="Row Row Row Your Boat">
   </div>
   </div>
   </div>
@@ -235,6 +241,12 @@
   </div>
   </div>
 <!--modals end here-->
+<footer>
+    <div id="section3">
+        <p>This web app was created by Camille Respess in 2019 for Intro to Web Apps at the University of Florida College of Journalism and Communications. Learn more at the GitHub repo <a href="https://github.com/camillerespess/music-education" target="blank">here.</a> All GIFs and images are original and were illustrated by Camille Respess and are not available for use without permission.</p>
+      </div>
+  </footer>
+
 <script src="js/main.js"></script>
 
 </body>

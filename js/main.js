@@ -9,13 +9,19 @@ sesame.onmouseleave = (e) => {
   e.target.classList.remove("swing");
   }
 
-
-
-
 let modal = document.querySelectorAll(".modal");
 let piano = document.querySelectorAll(".piano");
-let span = document.getElementsByClassName("close")[0];
+// let span = document.getElementsByClassName(".close")[0];
 let white = document.querySelectorAll(".white");
+
+// make all close buttons work
+
+let close = document.querySelectorAll(".close");
+  close.forEach(function(el) {
+    el.onclick = (e) => {
+    e.target.closest('div').parentNode.style.display = 'none';
+  };
+});
 
 function hideAll() {
   modal.forEach(function(el) {
